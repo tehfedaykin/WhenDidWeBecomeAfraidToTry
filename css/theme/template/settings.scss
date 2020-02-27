@@ -41,5 +41,9 @@ $selectionColor: #fff;
 // Generates the presentation background, can be overridden
 // to return a background image or gradient
 @mixin bodyBackground() {
-	background: $backgroundColor;
+	background-color: $backgroundColor;
+	background-image: url('../../img/booch-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom left;
 }
