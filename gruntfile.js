@@ -4,7 +4,7 @@ module.exports = grunt => {
 
 	require('load-grunt-tasks')(grunt);
 
-	let port = grunt.option('port') || 8000;
+	let port = grunt.option('port') || 1337;
 	let root = grunt.option('root') || '.';
 
 	if (!Array.isArray(root)) root = [root];

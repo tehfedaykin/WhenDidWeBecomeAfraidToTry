@@ -373,6 +373,12 @@ body {
 	text-shadow: $headingTextShadow;
 }
 
+.accent2 {
+	font-weight: 700;
+	text-shadow: 1px 1px 1px #fff;
+	color: $accentColor;
+}
+
 .scaled {
 	width: 50%;
 }
@@ -413,6 +419,11 @@ section.darkbg {
 		color: #fff;
 	}
 	.accent {
-		color: #EDC38D !important;
+		//color: #EDC38D !important;
 	}
+	a {
+		color: #fff;
+		text-decoration: underline;
+	}
+
 }
