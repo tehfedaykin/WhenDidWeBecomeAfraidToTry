@@ -10,7 +10,7 @@
  *********************************************/
 body {
   background-color: #EDC38D;
-  background-image: url("../../img/booch-bg.jpg");
+  background-image: url("../../img/booch-square-lg-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom left;
@@ -279,7 +279,7 @@ body {
   top: 20px;
   right: 0%;
   display: block;
-  width: 50%; }
+  width: 90%; }
   .twitter-overlay span {
     font-family: 'Source Sans Pro', Helvetica, sans-serif;
     color: #333;
@@ -351,3 +351,7 @@ section.darkbg h1, section.darkbg h2, section.darkbg h3, section.darkbg p {
 section.darkbg a {
   color: #fff;
   text-decoration: underline; }
+
+blockquote {
+  background: rgba(0, 0, 0, 0.5) !important;
+  color: #fff; }
